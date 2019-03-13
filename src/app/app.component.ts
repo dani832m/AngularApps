@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Subscriber } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -31,7 +30,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.http.get<Object>('../assets/data.json').subscribe(
+    this.http.get<Object>('http://35.198.82.252/daniels').subscribe(
       data => {
         this.artists = data;
       })

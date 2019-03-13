@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@media only screen and (min-width: 650px) {
+   #footer {
+      position: absolute;
+      bottom: 10px; right: 30px;
+      display: inline;
+   }
+}
+
+@media only screen and (max-width: 649px) {
+   #footer {
+      display: none;
+   }
+}
