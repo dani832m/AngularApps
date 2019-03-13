@@ -1,4 +1,4 @@
-# Angular Apps
+# Daniels Directory
 
 On this branch you'll find a version of the application where you can search for all Daniels in the class.
 
